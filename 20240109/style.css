@@ -1,0 +1,59 @@
+@charset "utf-8";
+body {margin: 0; 
+/* color: blue;  */
+/* border: 8px solid blue; */
+}
+h1{background-color: aqua;
+margin: 0%;
+/* border: inherit; */
+/* color: blue; */
+/* font-size: 16px; */
+/* font-weight: normal; */
+/* text-align: center; */
+}
+p {background-color: pink;
+  line-height: 1.6;
+  /* margin: 0 0 0 16px;  */
+ /* font-weight: bold; */
+  margin: 0px ;
+  /* text-align: right; */
+  /* margin: 0 auto ; */
+  /* width: 160px;
+  height: 160px; */
+  /* max-width: 400px; */
+  /* min-width: 400px; */
+/* height: 160px;
+border-width: 8px;
+bordorder-top-width: 8px;
+border-top-style: solid;
+border-top-color: blue;
+border-top-width: 8px;
+border-top-style: er-style: solid;
+border-color: blue;} */
+/* bdashed; */
+/* border-top-color: blue; */
+/* border-bottom-width: 8px; */
+/* border-bottom-style: double; */
+/* border-bottom-color: blue; */
+/* border-top: 8px dashed blue;
+border-bottom: 8px double blue; */
+/* padding-top: 16px; */
+/* padding-right: 16px; */
+/* padding-left: 16px; */
+/* padding-bottom: 16px;} */
+/* padding: 16px; */
+/* width: 16px; */
+/* height: 16px; */
+/* border-radius: 16px 0 16px 0; */
+/* border-radius: 50%; */
+/* border: 8px solid blue; */
+/* border-radius: 16px; */
+/* overflow: hidden; */
+/* overflow: scroll; */
+/* border: 8px solid blue; */
+/* padding: 8px; */
+/* box-sizing: border-box; */
+/* box-shadow: 8px 8px gray; */
+/* box-shadow: 8px 8px 8px gray; */
+box-shadow: 0 0 8px gray;
+}
