@@ -3,19 +3,34 @@ body {margin: 0;
 /* color: blue;  */
 /* border: 8px solid blue; */
 }
-h1{background-color: aqua;
-margin: 0%;
+h1{
+  border-bottom: 2px solid lightslategray;
+  /* background-color: aqua; */
+/* margin: 0% auto; */
+margin: 0;
+padding: 8px;
+/* margin: 8px; */
+text-align: center;
 /* border: inherit; */
 /* color: blue; */
 /* font-size: 16px; */
 /* font-weight: normal; */
 /* text-align: center; */
 }
-p {background-color: pink;
+section{
+  border: 3px solid darkgray;
+  width: 400px;
+  margin: 32px auto 0;
+  border-radius: 8px;
+}
+p {
+  /* background-color: pink; */
   line-height: 1.6;
   /* margin: 0 0 0 16px;  */
  /* font-weight: bold; */
-  margin: 0px ;
+  /* margin: 8px ; */
+  margin: 0% ;
+  padding: 8px;
   /* text-align: right; */
   /* margin: 0 auto ; */
   /* width: 160px;
