@@ -34,7 +34,6 @@ p {
   max-width: 800px;
   margin: 0 auto;
   width: calc(100% - 32px);
-  box-sizing: border-box;
 }
 
 
@@ -70,7 +69,7 @@ h1 {
 }
 /* features */
 .features {
-  padding: 64px 16px;
+  padding: 64px 0;
 
 
 }
@@ -88,7 +87,7 @@ h1 {
 }
 
 footer {
-  background:#333 ;
+  background: #333 ;
   color: white;
   padding: 64px 0;
   text-align: center;
@@ -99,7 +98,7 @@ small {
 }
 
 
-* large screen */
+/* large screen */
 
 @media (min-width: 600px) {
 
@@ -111,7 +110,7 @@ small {
   .logo-pc {
     display: inline;
   }
-}
+
 
   /* hero */
 
@@ -127,7 +126,7 @@ small {
 .hero img {
   margin-top: 0;
 }
-/*features*/
+/* features */
 .feature {
   display: flex;
   gap: 32px;
@@ -144,3 +143,4 @@ small {
 }
 
 
+}
