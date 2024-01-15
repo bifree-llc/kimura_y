@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+header{
+  display: flex;
+  /* justify-content: space-between;
+} */}
+
+nav {
+  margin-left: auto;
+
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+a {
+/* background: pink;  */
+display: block;
+width: 100px;
+line-height: 64px; 
+text-align: center;
+}
+a:hover {
+  background: lightgrey;
+}
+
+/* article {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+
+}
+
+article + article {
+  margin-top: 32px;
+}
+article:nth-child(even){
+  flex-direction: row-reverse;
+}
+
+.text {
+  /* background: pink; */
+  /* flex: 1; */
+/* } */
+/* h1 {
+  margin: 0;
+  font-size: 22px;
+} */ 
+
+*/
+/* html {
+  height: 100%;
+} */
+/* body {
+  margin: 0;
+  /* border: 8px solid blue; */
+  /* box-sizing: border-box; */
+  /* height: 100%;
+  display: flex;
+  flex-direction: column;
+} */ */
+
+
+/* header{
+  background: pink;
+}
+.container {
+  display: flex;
+}
+.container {
+  display: flex;
+  flex:1;
+} */
+
+/* main {
+  background: skyblue;
+  flex: 1;
+
+}
+nav {
+  background: tomato;
+  width: 160px;
+  order: -1;
+}
+
+
+aside {
+  background: orange;
+  width: 160px;
+} */
+
+/* footer {
+  background: silver;
+} */
+/* .container {
+  border: 8px solid blue;
+  display: flex;
+  
+}
+ 
+.item-1 {
+  width: 80px;
+  height: 80px;
+  background-color: pink;
+  flex: 1;
+  /* align-self: center; */
+/* } */
+
+/* .item-2 {
+  width: 80px;
+  height: 80px;
+  background-color: skyblue;
+  flex: 2; */
+  /* order: 1; */
+  /* margin-left: auto; */
+/* } */
+
+/* .item-3 {
+  width: 80px;
+  height: 80px;
+  background-color: orange;
+  flex: 1;
+} */ */
+/* .item-4 {
+  width: 80px;
+  height: 80px;
+  background-color: lightgray;
+}
+.item-5 {
+  width: 80px;
+  height: 80px;
+  background-color: tomato;
+} */
+ 
+  /* width: 280px;
+  /* height: 240px; */
+  /* flex-wrap: wrap;
+  gap: calc((280px - 80px * 3) / 2); */ */
+  /* justify-content: space-between; */
+  /* justify-content:  space-between; */
+  /* flex-direction: row-reverse; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column-reverse; */
+  /* flex-direction: column; */
+/* display: inline-flex;
+width: 280px; */
+/* } */{}
