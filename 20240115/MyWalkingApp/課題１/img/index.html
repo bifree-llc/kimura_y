@@ -9,31 +9,42 @@
 <body>
   <header>
     <div>
-     <h1>My Works</h1>
+      <h1>My Work</h1>
     </div>
+     
+
     
-    <div>
-     <a href="#about">About</a>
-     <a href="#works">Works</a>
-     <a href="#news">News</a>
-     <a href="#contact">Contact</a>
-     <img src="icon-instagram.png" width="20" height="20" a href="#">
+    <nav>
+      <ul>
+
+       <li>  <a href="#about">About</a></li> 
+       <li><a href="#works">Works</a></li> 
+       <li><a href="#news">News</a></li>
+       <li><a href="#contact">Contact</a></li>
+       <li><img src="icon-instagram.png" width="20" height="20" a href="#"></li>     
+      
+      </ul>
+    
 
 
-    </div>
+    </nav>
     
   </header>
-  <img src= "mainvisual-pc.jpg" width="1280" height="420">
+  <div>
+    <img src= "mainvisual-pc.jpg" width="960" height="211">
+  </div>
+  
 
   <section id="about" class="about">
     <h2> About</h2>
-     <div>
-      <h3>Xxxxasley</h3> 
+     <div class="pro">
+      <h3 >Xxxxasley</h3>
+     </div>
       <h3>2th Floor xxxx Buildings x-x-x Nishizabu,Minatoku,Tokyo 106-0031 Japan</h3>
       <h3>Tel:000-0000-0000</h3>
       <h3>url:www.xxxxxx.jp</h3>
       <h3>mail:xxx@xxxx.jp</h3>
-     </div>
+    
     
 
     <p>プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
@@ -41,21 +52,20 @@
     
   </section>
 
-  <!-- hero -->
+  <!-- works -->
+
   <section id="works" class="works">
     <h2>Works</h2>
-    <img src="works1.jpg" width="264" height="172">
-
-    <img src="works2.jpg"width="264" height="172">
+    <ul>
+      <li><img src="works1.jpg" width="264" height="172"></li>
+      <li><img src="works2.jpg"width="264" height="172"></li>
+      <li><img src="works3.jpg"width="264"height="172"></li>
+      <li><img src="works4.jpg"width="264" height="172"></li>
+      <li><img src="works5.jpg"width="264"height="172"></li>
+      <li>
+      <img src="works6.jpg"width="264" height="172"></li>
+    </ul>
     
-    <img src="works3.jpg"width="264"height="172">
-    
-    <img src="works4.jpg"width="264" height="172">
-    
-    <img src="works5.jpg"width="264"height="172">
-    
-    <img src="works6.jpg"width="264" height="172">
-   
 
   </section>
 
@@ -65,22 +75,38 @@
     <article>
       <h2 >News</h2>
       <div class="news">
-       <p></p><time>2020.XX.XX</time>デザイン雑誌「XXXXXXX Vol.11に掲載していただきました」</p>
+        <dl>
+          <dt><time>2020.XX.XX</time></dt><dd>デザイン雑誌「XXXXXXX Vol.11に掲載していただきました」</dd>
+          <dt><time>2020.XX.XX  </time></dt><dd>XX月XX日から写真集「XXXXX」の販売をかいしします。</dd>
+          <dt><time>   2019.XX.XX</time></dt><dd>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキストテキスト</dd>
+         
+          <dt><time>2019.XX.XX</time></dt><dd>デザイン雑誌「XXXXXXX Vol.10に掲載していただきました」</dd> <dt><time>2019.XX.XX</time></dt><dd>【個別開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+
+        </dl>
       
-       <p><time>2020.XX.XX  </time>   XX月XX日から写真集「XXXXX」の販売をかいしします。</p>
-       <p><time>   2019.XX.XX</time>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキストテキスト</p>
-       <p><time>2019.XX.XX</time>    デザイン雑誌「XXXXXXX Vol.10に掲載していただきました」</p>
-       <p><time>2019.XX.XX</time>    【個別開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</p>
-      </div>
-       
+      
       
     </article>
     
 
   </section>
-  <section id="contact">
+  <section id="contact" class="contact">
     <h2>Contact</h2>
     <form>
+
+      <dv class="form">
+        <dt><label for="name">NAME</label></dt>
+      <dt> <label for="mail">E-mail</label></dt>
+      <dt> <label for="message">MESSAGE</label></dt>
+      </dv>
+
+      <dv class="form">
+        <dd><input type="text" id="name"></dd>
+      <dd><input type="text" id="mail"></dd>
+      <dd><textarea id="message"></textarea></dd>
+      </dv>
+      
+     
       <div>
         <label for="name">NAME</label>
          <input type="text" id="name">
@@ -96,12 +122,12 @@
 
       
   
-    </form>
+   
+
+     <!-- botton -->
+    <button>送信</button>
+   </form>
   </section> 
-
-  <!-- botton -->
-  <button>送信</button>
-
 
   <!-- footer -->
   <footer>
