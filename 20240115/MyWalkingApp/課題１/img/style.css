@@ -2,17 +2,81 @@
 
 body {
   margin: 0;
+  
+}
+/* common */
+h2 {
+  margin: 0;
+  text-align: center;
+
 }
 
+h3 {
+  margin: 0;
+  font-weight: normal;
+}
+p {
+  margin: 0;
+}
 /* header */
+header {
+  background: pink;
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+  padding: 64px;
+  text-align: center;
+}
 h1 {
+  margin: 0;
+  padding: 0;
   font-weight: normal;
   text-align: center;
-  flex: auto;
+  width: 143px;
+  height: 36px;
+  box-sizing: border-box;
+
+   font-size: 20;
+  color: #2B3137;
   
 }
 a {
   text-decoration: none;
-  color: black;
+  color: inherit;
+  display: inline-block;
 }
 
+
+img {
+  vertical-align: bottom;
+}
+/* hero */
+
+/* about */
+.about {
+  display: block;
+  /* margin: 0 auto; */
+  text-align: left;
+}
+
+/* works */
+.works {
+  text-align: center;
+}
+
+/* News */
+.news {
+  border-bottom: 2px solid #C8C8C8;
+}
+
+
+/* footer */
+footer {
+  background: #24292E;text-align: center;
+}
+small {
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+  
+}

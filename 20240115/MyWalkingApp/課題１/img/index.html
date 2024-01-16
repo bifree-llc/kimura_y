@@ -8,35 +8,41 @@
 </head>
 <body>
   <header>
-    <h1>My work</h1>
+    <div>
+     <h1>My Works</h1>
+    </div>
+    
     <div>
      <a href="#about">About</a>
      <a href="#works">Works</a>
      <a href="#news">News</a>
      <a href="#contact">Contact</a>
-     <img src="icon-instagram.png" width="20" height="20">
+     <img src="icon-instagram.png" width="20" height="20" a href="#">
 
 
     </div>
-    <img src= "mainvisual-pc.jpg" width="1280" height="420">
+    
+  </header>
+  <img src= "mainvisual-pc.jpg" width="1280" height="420">
 
-  </header>  
-  <section id="about">
+  <section id="about" class="about">
     <h2> About</h2>
+     <div>
+      <h3>Xxxxasley</h3> 
+      <h3>2th Floor xxxx Buildings x-x-x Nishizabu,Minatoku,Tokyo 106-0031 Japan</h3>
+      <h3>Tel:000-0000-0000</h3>
+      <h3>url:www.xxxxxx.jp</h3>
+      <h3>mail:xxx@xxxx.jp</h3>
+     </div>
+    
 
-    <h３>Xxxxasley</h３>
+    <p>プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
 
-    <ul>
-      <li>2th floor</li>
-      <li>Tel 000-0000-0000</li>
-      <li>url</li>
-      <li>mail</li>
-    </ul>
-    <p>テキストテキストテキストテキストテキスト</p>
+    
   </section>
 
   <!-- hero -->
-  <section id="works">
+  <section id="works" class="works">
     <h2>Works</h2>
     <img src="works1.jpg" width="264" height="172">
 
@@ -53,16 +59,54 @@
 
   </section>
 
+<!-- News -->
+
   <section id="news">
-    <h2>News</h2>
+    <article>
+      <h2 >News</h2>
+      <div class="news">
+       <p></p><time>2020.XX.XX</time>デザイン雑誌「XXXXXXX Vol.11に掲載していただきました」</p>
+      
+       <p><time>2020.XX.XX  </time>   XX月XX日から写真集「XXXXX」の販売をかいしします。</p>
+       <p><time>   2019.XX.XX</time>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+       <p><time>2019.XX.XX</time>    デザイン雑誌「XXXXXXX Vol.10に掲載していただきました」</p>
+       <p><time>2019.XX.XX</time>    【個別開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</p>
+      </div>
+       
+      
+    </article>
+    
 
   </section>
   <section id="contact">
     <h2>Contact</h2>
+    <form>
+      <div>
+        <label for="name">NAME</label>
+         <input type="text" id="name">
+      </div>
+      <div>
+        <label for="mail">E-mail</label>
+        NAME <input type="text" id="mail">
+      </div>
+      <div>
+        <label for="message">MESSAGE</label>
+        <textarea id="message"></textarea>
+      </div>
 
-   NAME <input type="text">
-   <input type="text">
+      
+  
+    </form>
+  </section> 
 
+  <!-- botton -->
+  <button>送信</button>
+
+
+  <!-- footer -->
+  <footer>
+    <small>🄫2020 Mywork</small>
+  </footer>
 
    
 
