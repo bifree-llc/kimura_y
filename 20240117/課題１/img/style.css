@@ -8,6 +8,12 @@ body {
   
 }
 /* common */
+.container {
+  width: 827px;
+  margin: 64px auto 0;
+  border: 5px solid blue;
+}
+/* なぜ！ */
 h2 {
   margin: 0;
   text-align: center;
@@ -17,10 +23,19 @@ h2 {
 h3 {
   margin: 0;
   font-weight: normal;
+  line-height: 1.5;
+ 
+  
 }
 p {
   margin: 0;
-  padding-top: 47px;
+  padding-top: 47px;line-height: 2;
+}
+main {
+  padding: 64px;
+}
+ul {
+  list-style: none;
 }
 /* header */
 header {
@@ -34,15 +49,11 @@ header {
 }
 h1 {
   margin: 0;
-  font-weight: normal;
-  text-align: center;
+  /* font-weight: normal; */
+  /* text-align: center; */
   width: 120px;
   height: 27px;
-  box-sizing: border-box;
-
-   font-size: 20;
-  color: #2B3137;
-  border: 10px blue solid;
+  /* box-sizing: border-box; */
 }
 
 nav {
@@ -53,17 +64,25 @@ a {
   color: inherit;
   display: inline-block;
 }
-li {
-  display: inline;
+
+/* インスタの画像だけ */
+img {
+  vertical-align: bottom;
 }
+/* li {
+  display: inline;
+} */
 
 
-li img {width: 264px;
+/* li img {width: 264px;
   height: 172px;
-   }
+   } */
 .mainvisual img {
 width: 100%;
 }
+
+
+
 
 /* hero */
 
@@ -75,7 +94,7 @@ width: 100%;
   margin-top: 90px;
 }
 .pro {
-  padding-top: 37px;
+  padding-top: 37px; padding-bottom: 32px;
 }
 
 /* works */
@@ -115,6 +134,7 @@ button {
   display: block;
   margin: 0 auto;
   /* text-align: center; */
+  cursor: pointer;
 }
 
 
