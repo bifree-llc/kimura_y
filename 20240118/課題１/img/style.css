@@ -1,0 +1,213 @@
+@charset "utf-8";
+
+body {
+  /* padding: auto 4%; */
+  margin: 0;
+  color: #333;
+  font-size: 14.4px;
+  border: 8px solid blue;
+  
+}
+/* common */
+.container {
+  /* width: 100%; */
+  /* width: 840px; */
+  /* height: 400px; */
+  border: 5px solid blue;
+  /* margin: 48px 144px; */
+}
+
+dt {
+  display: flex;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+
+}
+
+h3 {
+  margin: 0;
+  font-weight: normal;
+  line-height: 1.5;
+ 
+  
+}
+p {
+  margin: 0;
+  padding-top: 47px;line-height: 2;
+}
+main {
+  /* padding: 64px; */
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* li {
+ display: flex;
+} */
+  /* display: flex */
+  /* kokokara
+/* header */
+header {
+  /* background: pink; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 64px;
+  /* text-align: center; */
+  
+}
+h1 {
+  margin: 0 auto;
+  /* font-weight: normal; */
+  /* text-align: center; */
+  width: 120px;
+  height: 27px;
+  /* box-sizing: border-box; */
+}
+
+nav {
+  margin-left: auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  /* display: inline-block; */
+}
+
+/* インスタの画像だけ */
+/* img {
+  vertical-align: bottom;
+} */
+li {
+  margin: 8px;
+  /* display: inline-flex; */
+}
+/* li {
+  display: inline;
+} */
+
+
+/* li img {width: 264px;
+  height: 172px;
+   } */
+.mainvisual img {width: 100%;
+  /* width: 1280px;
+  height: 420px; */
+width: 100%;
+}
+
+
+
+
+/* hero */
+
+/* about */
+.about {
+  display: block;
+  /* margin: 0 auto; */
+  text-align: left;
+  margin-top: 90px;
+}
+.pro {
+  padding-top: 37px; padding-bottom: 32px;
+}
+
+/* works */
+.works li {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* .works img {
+  width: 100%;
+  height: auto;
+} */
+
+
+
+.works {
+  text-align: center;
+  margin-top: 90px;
+  /* display: flex; */
+
+}
+.workimg {
+  width: 264px;
+  height: 174px;
+}
+
+
+/* News */
+
+news {
+  margin-top: 90px;
+}
+.new {
+  border-top: 2px solid #C8C8C8;
+}
+.content {
+  border-bottom: 2px solid #C8C8C8;
+  /* margin-top: 90px; */
+}
+
+dl {
+  display: flex;
+}
+
+
+
+/* Contact */
+.contact {
+  margin-top: 90px;
+}
+/* dt {
+  align-self: center;
+}
+label {
+  align-self: center;
+} */
+
+
+ /* form */
+ input {
+ margin: 0 auto;
+ width: 50%;
+ /* width: 720px;
+ height: 43px; */
+ }
+ .form {
+  display: flex;
+  flex: 1;
+ }
+
+
+/* button */
+button {
+  background: #24292E;
+  color: #FFFFFF;
+  padding: 16px 50px;
+  display: block;
+  margin: 0 auto;
+  /* text-align: center; */
+  cursor: pointer;
+}
+
+
+
+/* footer */
+footer {
+  background: #24292E;text-align: center;
+  margin-top: 64px;
+}
+small {
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+  
+}
