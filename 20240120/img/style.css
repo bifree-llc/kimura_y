@@ -25,7 +25,7 @@ dt {
 
 
 h2 {
-  margin: 0;
+  font-size: 24px;
   text-align: center;
 
 }
@@ -37,7 +37,7 @@ h3 {
  
   
 }
-p {
+section.about p {
   margin: 0;
   padding-top: 47px;line-height: 2;
 }
@@ -54,19 +54,15 @@ ul {
   justify-content: center;
   /* padding: 64px; */
 }
-/* li {
- display: flex;
-} */
-  /* display: flex */
-  /* kokokara
+
 /* header */
 header {
-  /* background: pink; */
   display: flex;
-  align-items: center;
+  padding-top: 120px;
+  /* align-items: center; */
   justify-content: center;
   padding: 64px;
-  /* text-align: center; */
+
   
 }
 h1 {
@@ -95,18 +91,11 @@ li {
   margin: 8px;
   /* display: inline-flex; */
 }
-/* li {
-  display: inline;
-} */
 
-
-/* li img {width: 264px;
-  height: 172px;
-   } */
-.mainvisual img {width: 100%;
+.mainvisual img {
+  width: 100%;
   /* width: 1280px;
   height: 420px; */
-width: 100%;
 }
 
 
@@ -115,15 +104,22 @@ width: 100%;
 /* hero */
 
 /* about */
-.about {
+section.about {
   display: block;
   /* margin: 0 auto; */
   text-align: left;
-  margin-top: 90px;
+  margin-top: 87px;
+  margin-bottom: 133px;
 }
+section.about h2 {
+  margin-bottom: 74px;
+}
+
 .pro {
-  padding-top: 37px; padding-bottom: 32px;
+  padding-top: 74px; padding-bottom: 37px;
 }
+
+
 
 /* works */
 .works li {
@@ -139,12 +135,22 @@ width: 100%;
 
 .works {
   text-align: center;
-  margin-top: 90px;
+  /* margin-top: 90px; */
   /* display: flex; */
-  margin-bottom: 90px;
+  margin-bottom: 137px;
   
 
 }
+section.works h2 {
+  padding-bottom: 70px;
+}
+
+section.works ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .workimg {
   width: 264px;
   height: 174px;
