@@ -263,9 +263,9 @@ small {
 }
 /* mobile screen */
 @media (max-width: 600px) {
-body {
+/* body {
   background: pink;
-}
+} */
 .container {
   width: 345px;
   }
