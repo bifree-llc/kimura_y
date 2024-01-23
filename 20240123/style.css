@@ -55,18 +55,14 @@ ul.containers{
   /* justify-content: center; */
 /* header */
 header {
+  max-width: 960px;
+  padding: 0 4%;
   display: flex;
-  margin: 120px 0px;
-  /* align-items: center; */
-  justify-content: space-around
+  margin: 120px auto;
+  
   
 }
-h1 {
-  margin: 0 auto;
-  width: 120px;
-  height: 27px;
-  box-sizing: border-box;
-}
+
 
 nav {
   margin-left: auto;
@@ -295,8 +291,8 @@ header {
    flex-direction: column;
    /* justify-content: center; */
 }
-h1.containers {
-  margin: 20px 116px 15px;
+h1 {
+  margin: 0 auto;
 }
 nav {
   display: flex;
