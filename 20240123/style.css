@@ -46,7 +46,8 @@ ul.containers{
   
   display: flex;
   
-  padding-right: 230px;
+  padding: 0;
+  /* padding-right: 230px; */
   /* padding: 64px; */
 }
 /* flex-wrap: wrap; */
@@ -73,7 +74,7 @@ nav {
 a {
   text-decoration: none;
   color: inherit;
-  margin: 0 16px;
+  /* margin: 0 16px; */
   /* display: inline-block; */
 }
 
@@ -280,9 +281,7 @@ small {
 /* body {
   background: pink;
 } */
-/* .container {
-  width: 345px;
-  } */
+
 
 /* header */
 
@@ -300,9 +299,9 @@ h1.containers {
   margin: 20px 116px 15px;
 }
 nav {
-  margin: 0 58px;
-  /* width: 260px; */
-  height: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   
   
 }
@@ -329,7 +328,7 @@ section.about h3 {
 /* works */
 section.works h2 {
 
-margin: 61px 154px 45px 148px;
+width: 100%;
 }
 .works {
   margin: 0;
@@ -370,6 +369,7 @@ section.news dl dt{
   margin: 17px 0 5px;
 }
 section.news dl dd{
+  padding-top: 0;
   width: 100%;
   /* padding-bottom: 17px; */
 }
