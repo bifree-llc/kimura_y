@@ -1,0 +1,382 @@
+@charset "utf-8";
+
+body {
+  /* padding: auto 4%; */
+  margin: 0;
+  padding: 0;
+  color: #333;
+  font-size: 14.4px;
+  
+}
+/* common */
+.container {
+  width: 800px;
+  /* width: 100%; */
+  /* width: 840px; */
+  /* height: 400px; */
+  margin: 0 auto;
+  /* margin: 48px 144px; */
+}
+
+dt {
+  display: flex;
+  
+}
+
+
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+
+}
+
+h3 {
+  margin: 0;
+  font-weight: normal;
+  line-height: 1.5;
+ 
+  
+}
+section.about p {
+  margin: 0;
+  padding-top: 47px;line-height: 2;
+}
+
+ul.containers{
+  list-style: none;
+  width: 296px;
+  height: 20px;
+  /* margin: 0;
+  padding: 0; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  padding-right: 230px;
+  /* padding: 64px; */
+}
+
+/* header */
+header {
+  display: flex;
+  margin: 120px 0px;
+  /* align-items: center; */
+  justify-content: space-around
+  
+}
+h1 {
+  margin: 0 auto;
+  width: 120px;
+  height: 27px;
+  box-sizing: border-box;
+}
+
+nav {
+  margin-left: auto;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  /* display: inline-block; */
+}
+
+/* インスタの画像だけ */
+/* img {
+  vertical-align: bottom;
+} */
+li {
+  margin: 8px;
+  /* display: inline-flex; */
+}
+[src="icon-instagram.png"] {
+  width: 20px;
+  height: 20px;
+}
+
+.mainvisual img {
+  width: 100%;
+  /* width: 1280px;
+  height: 420px; */
+}
+
+
+
+
+/* hero */
+
+/* about */
+section.about {
+  display: block;
+  /* margin: 0 auto; */
+  text-align: left;
+  margin-top: 87px;
+  margin-bottom: 133px;
+}
+section.about h2 {
+  margin-bottom: 74px;
+}
+
+.pro {
+  padding-top: 74px; padding-bottom: 37px;
+}
+
+
+
+/* works */
+/* .works li {
+  display: flex;
+  flex-wrap: wrap;
+} */
+ul{
+  list-style: none;
+  /* padding: 0; */
+  
+}
+
+.works {
+  margin-bottom: 137px;
+}
+
+section.works h2 {
+  padding-bottom: 70px;
+}
+
+section.works ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+}
+section.works ul li {
+  width: 31%;
+  height: 172px;
+  margin-bottom: 23px;
+}
+section.works ul li img {
+  width: 100%;
+}
+/* .workimg {
+  width: 264px;
+  height: 174px;
+} */
+
+
+/* News */
+
+section.news {
+  margin-bottom: 150px;
+ 
+}
+
+
+section.news h2 {
+  margin-bottom: 17px; border-bottom: 2px solid #C8C8C8;
+  padding-bottom: 70px;
+}
+
+
+section.news dl {
+  display: flex; 
+  border-bottom: 2px solid#C8C8C8;
+padding-bottom: 18px;
+
+}
+.news dt {
+  width: 20%;
+}
+.news dd {
+  width: 80%;
+}
+
+
+
+
+
+/* Contact */
+.contact {
+  margin-top: 90px;
+  padding-bottom: 80px;
+}
+section.contact h2 {
+  margin-top: 72px;
+}
+section.contact dl {
+  display: flex;
+}
+section.contact dl dt {
+  width: 20%;
+}
+section.contact dl dd {
+  width: 80%;
+}
+/* dt {
+  align-self: center;
+}
+label {
+  align-self: center;
+} */
+
+
+ /* form */
+ input {
+ margin: 0 auto;
+ width: 743px;
+ height: 43px;
+ }
+ textarea {
+  width: 743px;
+  height: 160px;
+  resize: none;
+ }
+ /* .form {
+  display: flex;
+  flex: 1;
+ } */
+
+
+/* button */
+button {
+  background: #24292E;
+  color: #FFFFFF;
+  padding: 16px 50px;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+
+
+/* footer */
+footer {
+  background: #24292E;text-align: center;
+  margin-top: 64px;
+  padding: 17px;
+}
+small {
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+  width: 74px;
+  height: 10px;
+  
+}
+/* mobile screen */
+@media (max-width: 600px) {
+/* body {
+  background: pink;
+} */
+.container {
+  width: 345px;
+  }
+
+/* header */
+
+header {
+  margin-top: 0;
+  margin-bottom: 16px;
+  /* display: block;
+  display: inline-flex;
+   */
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+}
+h1.containers {
+  margin: 20px 116px 15px;
+}
+nav {
+  margin: 0 auto;
+  width: 260px;
+  height: 20px;
+  
+  
+}
+
+.mainvisual img {
+  height: 420px;
+  margin-top: 16px;
+}
+
+
+/* about */
+section.about h2 {
+  margin: 87px 157px 49px 149px;
+}
+section.about h3 {
+  margin: 0;
+  padding: 0;
+}
+.pro {
+  margin: 0;
+  padding: 0;
+}
+
+/* works */
+section.works h2 {
+
+margin: 61px 154px 45px 148px;
+}
+.works {
+  margin: 0;
+}
+
+section.works h2 {
+  padding: 0;
+}
+section.works ul {
+  display: block;
+}
+
+section.works ul li {
+  width: 345px;
+  height: 225px;
+  margin: 23px 15px;
+}
+
+
+ul {
+  padding: 0;
+}
+
+/* news */
+
+section.news dl {
+  display: block;
+}
+
+/* contact */
+section.contact {
+  
+}
+section.contact dl {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+ 
+}
+section.contact dl dd {
+  float: left;
+}
+
+.contact {
+  margin: 0;
+  padding: 0;
+}
+input {
+  width: 345px;
+  height: 43px;
+}
+textarea {
+  width: 345px;
+  height: 160px;
+}
+button {
+  width: 200px;
+  height: 53px;
+  margin-bottom: 70px;
+}
+
+
+}
