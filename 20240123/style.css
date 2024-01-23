@@ -41,18 +41,17 @@ section.about p {
 
 ul.containers{
   list-style: none;
-  width: 296px;
+  /* width: 296px; */
   height: 20px;
-  /* margin: 0;
-  padding: 0; */
+  
   display: flex;
-  /* flex-wrap: wrap; */
-  /* align-items: center; */
-  /* justify-content: center; */
+  
   padding-right: 230px;
   /* padding: 64px; */
 }
-
+/* flex-wrap: wrap; */
+  /* align-items: center; */
+  /* justify-content: center; */
 /* header */
 header {
   display: flex;
@@ -149,16 +148,15 @@ section.works ul li {
   width: 31%;
   height: 172px;
   margin-bottom: 23px;
+  margin-top: 23px;
   /* margin-left: 24px; */
 
 }
+
 section.works ul li img {
   width: 100%;
 }
-/* .workimg {
-  width: 264px;
-  height: 174px;
-} */
+
 
 
 /* News */
@@ -170,7 +168,7 @@ section.news {
 
 
 section.news h2 {
-  margin-bottom: 17px; border-bottom: 2px solid #C8C8C8;
+  margin-bottom: 17px; 
   padding-bottom: 70px;
 }
 
@@ -179,7 +177,7 @@ section.news dl {
   display: flex; 
   /* flex-direction: column; */
   flex-wrap: wrap;
-  border-bottom: 2px solid#C8C8C8;
+  border-top: 2px solid#C8C8C8;
 padding-bottom: 18px;
 
 }
@@ -192,6 +190,7 @@ section.news dl dd {
   width: 80%;
   border-bottom: 2px solid #C8C8C8 ;
   padding: 17px 0;
+  margin: 0;
   /* flex-wrap: wrap; */
 }
 
@@ -209,13 +208,15 @@ section.contact h2 {
 }
 section.contact dl {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
 }
 section.contact dl dt {
   width: 20%;
 }
 section.contact dl dd {
   width: 80%;
+  margin: 0;
 }
 /* dt {
   align-self: center;
@@ -300,7 +301,7 @@ h1.containers {
 }
 nav {
   margin: 0 58px;
-  width: 260px;
+  /* width: 260px; */
   height: 20px;
   
   
@@ -347,7 +348,7 @@ section.works ul li {
   width: 100%;
   height: 225px;
   display: inline-block;
-  margin: 23px 15px;
+  margin: 23px 0;
 }
 
 
@@ -362,11 +363,17 @@ section.news dl {
   flex-direction: column;
 }
 section.news dl dt{
-  width: 20%;
+  width: 100%;
+  border-bottom: none;
+  /* padding-top: 5px; */
+  padding: 0;
+  margin: 17px 0 5px;
 }
 section.news dl dd{
-  width: 80%;
+  width: 100%;
+  /* padding-bottom: 17px; */
 }
+
 /* contact */
 
 section.contact dl {
@@ -375,22 +382,27 @@ section.contact dl {
   margin: 0 auto;
  
 }
+section.contact {
+  padding: 0 4%;
+}
 section.contact dl dt {
-width: 20%;
+width: 100%;
+margin: 0;
 }
 section.contact dl dd{
-  width: 80%;
+  width: 100%;
+  margin: 0;
 }
 .contact {
   margin: 0;
   padding: 0;
 }
 input {
-  width: 345px;
+  width: 100%;
   height: 43px;
 }
 textarea {
-  width: 345px;
+  width: 100%;
   height: 160px;
 }
 button {
