@@ -38,7 +38,10 @@ nav ul {
 }
 nav ul li {
   margin-right: 60px;
-
+}
+nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 /* pick up */
@@ -102,6 +105,7 @@ margin-bottom: 13px;
 }
 article.yyy p {
 margin: 0;
+margin-bottom: 37px;
 }
 
 
@@ -111,12 +115,13 @@ aside {
  
 }
 .author {
+  margin-top: 12px;
   align-items: center;
   flex-direction: column;   display: flex;
 }
 
 .author img {
-width: 37%;
+width: 50%;
 border-radius: 50%;
 }
 
@@ -151,6 +156,7 @@ border-radius: 50%;
 /* footer */
 footer {
   margin-top: 140px;
+  background: #F7F7F7;
 }
 footer div.content {
   display: flex;
@@ -160,9 +166,11 @@ footer div.content {
 section.about {
   width: 21%;
 }
-/* section.about ul {
-  list-style: ;
-} */
+section.about ul {
+  list-style: none;
+  padding: 0;
+}
+
 
 section.menu {
   width: 21%;
@@ -171,15 +179,36 @@ section.menu {
 section.menu ul {
   list-style: none;
   padding: 0;
+  border-top: 1px solid #777777;
 }
 section.menu ul li {
   padding: 18px 12px;
   border-bottom: 1px solid #777777;
 }
 
+
+/* section.menu ul li {
+  position: relative;
+    padding-left: 10px;
+}
+section.menu ul li :before {
+  content: "";
+  position: absolute;
+  top: .35em;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent #8b6b4e;
+} */
+
 section.twitter {
   width: 20%;
 }
-small {
-  text-align: center
+section.twitter a {
+  data-width:315px ;
+}
+.small {
+  text-align: center;
 }
