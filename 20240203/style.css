@@ -1,4 +1,4 @@
-@charset "utf-8";
+j@charset "utf-8";
 
 body{
   margin: 0;
@@ -218,13 +218,14 @@ section.twitter a {
 @media (max-width:767px) {
   body {
     max-width: none;
-  
+    margin: 0;
     background: red;
   }
 
   nav ul {
   display: flex;
   justify-content: space-between;
+  padding: 13px 0;
   /* width: 100%; */
   }
 
@@ -246,6 +247,10 @@ section.twitter a {
   }
   .pickup article img {
     width: 91%;
+  }
 
+  .most {
+    display: flex;
+    flex-direction: column;
   }
 }
