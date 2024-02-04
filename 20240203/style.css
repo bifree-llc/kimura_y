@@ -228,6 +228,11 @@ section.twitter a {
   padding: 13px 0;
   /* width: 100%; */
   }
+  nav ul li {
+    padding: 0px 5%;
+    width: 10%;
+    margin: 0;
+  }
 
   .pickup  {
     display: flex;
