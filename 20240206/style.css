@@ -163,11 +163,13 @@ border-radius: 50%;
 
 /* footer */
 footer {
+  width: 100%;
   margin-top: 140px;
   background: #F7F7F7;
 }
 footer div.content {
-  width: 1200px;
+  width: 100%;
+  /* width: 1200px; */
   display: flex;
   justify-content: center;  margin-bottom: 64px;
 }
@@ -226,7 +228,8 @@ section.twitter a {
   data-width:315px ;
 }
 .small {
-  width: 1200px;
+  width: 100%;
+  /* width: 1200px; */
   text-align: center;
 }
 
