@@ -1,0 +1,297 @@
+@charset "utf-8";
+
+body{
+  margin: 0;
+  max-width: 1200px;
+
+}
+
+*{
+  font-family: "Noto Sans","Noto Sans JP";
+}
+a {
+  color: #333333;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+/* hedder */
+header{
+width: 100%;
+}
+
+header h1 {
+  
+  margin: 20px 75% 0px 13%;
+}
+nav ul {
+  padding: 13px 55% 13px 13%;
+  list-style: none;
+  display: flex;
+  font-size: 14px;
+  color: #FFFFFF;
+  background-color: #333333;
+  margin: 0;
+  margin-bottom: 39px;
+
+}
+nav ul li {
+  margin-right: 60px;
+}
+nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+/* pick up */
+.pickup {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+   
+}
+.pickup h2 {
+  font-size: 16px
+}
+.pickup article{
+  width: 24%;
+  margin: 0 1% ;
+  
+}
+.pickup img {
+ width: 300px;
+}
+
+
+/*div */
+div.most {
+  display: flex;
+  justify-content: center;
+    margin-top: 75px;
+}
+
+
+/* main */
+main {
+  padding: 0 16px;
+  width: 50%;
+}
+main article.yyy {
+  width: 100%;
+  margin-bottom: 87px;
+}
+
+main article h2 {
+  font-size: 24px;
+  color: #333333;
+  margin: 0;
+  margin-bottom: 13px;
+
+}
+.yyy ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  margin: 13px 0;
+}
+.yyy ul li {
+  margin-right: 37px;
+}
+article.yyy img{
+width: 100%;
+margin-bottom: 13px;
+}
+article.yyy p {
+margin: 0;
+margin-bottom: 37px;
+}
+
+
+/* aside */
+aside {
+  width: 21%;
+ 
+}
+.author {
+  margin-top: 12px;
+  align-items: center;
+  flex-direction: column;   display: flex;
+}
+
+.author img {
+width: 50%;
+border-radius: 50%;
+}
+
+/* ranking */
+.ranking h3 {
+  text-align: center;
+}
+.ranking h4 {
+  font-weight: normal;
+  margin: 3px 0 31px;
+}
+.ranking img{
+  width: 100%;
+}
+
+/* archive */
+.archive h3 {
+  text-align: center;
+}
+.archive ul {
+  list-style: none;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 0;
+  border-top: 1px solid#777777;
+} 
+.archive ul li {
+  padding: 23px;
+  border-bottom: 1px solid #777777;
+}
+
+/* footer */
+footer {
+  margin-top: 140px;
+  background: #F7F7F7;
+}
+footer div.content {
+  display: flex;
+  justify-content: center;  margin-bottom: 64px;
+}
+
+section.about {
+  width: 21%;
+}
+section.about ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+section.menu {
+  width: 21%;
+  margin: 0 70px;
+}
+section.menu ul {
+  list-style: none;
+  padding: 0;
+  border-top: 1px solid #777777;
+}
+section.menu ul li {
+  padding: 18px 12px;
+  border-bottom: 1px solid #777777;
+}
+
+
+/* section.menu ul li {
+  position: relative;
+    padding-left: 10px;
+}
+section.menu ul li :before {
+  content: "";
+  position: absolute;
+  top: .35em;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent #8b6b4e;
+} */
+
+section.twitter {
+  width: 20%;
+}
+section.twitter a {
+  data-width:315px ;
+}
+.small {
+  text-align: center;
+}
+
+ 
+/* width <=767px */
+@media (max-width:767px) {
+  body {
+    max-width: none;
+    margin: 0;
+    /* background: red; */
+  }
+  .pickup h2 {
+    width: 91%;
+  }
+
+  .pickup a {
+    margin-top: 7px;
+    margin-bottom: 33px;
+  }
+  nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 0;margin-bottom: 29px;
+
+  /* width: 100%; */
+  }
+  nav ul li {
+    padding: 0px 5%;
+    width: 10%;
+    margin: 0;
+  }
+
+  .pickup  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 0 16px; */
+
+  }
+  .pickup article {
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+  }
+  .pickup article img {
+    width: 91%;
+  }
+
+  .most {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main {
+    width: 91%;
+    padding: 0;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+  }
+  .yyy{
+    width: 91%;
+  }
+  aside {
+    width: 91%;
+  }
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.about {
+width: 91%;
+}
+section.menu {
+width: 91%;
+}
+section.twitter {
+width: 91%;
+}
+}
