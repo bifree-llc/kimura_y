@@ -60,7 +60,7 @@ nav ul li a {
   
 }
 .pickup img {
- width: 300px;
+ width: 100%;
 }
 
 
@@ -170,7 +170,10 @@ section.about ul {
   list-style: none;
   padding: 0;
 }
-
+section.about ul li a {
+  text-align: start;
+  text-decoration: none;
+}
 
 section.menu {
   width: 21%;
@@ -184,6 +187,10 @@ section.menu ul {
 section.menu ul li {
   padding: 18px 12px;
   border-bottom: 1px solid #777777;
+}
+section.menu ul li a {
+  text-align: start;
+  text-decoration: none;
 }
 
 
