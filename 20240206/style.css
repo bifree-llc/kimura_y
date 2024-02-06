@@ -190,8 +190,8 @@ section.menu ul li {
 /* section.menu ul li {
   position: relative;
     padding-left: 10px;
-}
-section.menu ul li :before {
+} */
+/* section.menu ul li :before {
   content: "";
   position: absolute;
   top: .35em;
