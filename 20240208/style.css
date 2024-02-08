@@ -1,0 +1,139 @@
+@charset "utf-8";
+body {
+  margin: 0;
+}
+
+h2 ,
+h3 ,
+h4 {
+  color: #1D527E;
+}
+
+/* hedder */
+.inquary {
+  display :flex ;
+  justify-content: right;
+  
+}
+.inquary a {
+    text-align: center;
+    width: 20%;
+    margin: 1%;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: Noto Sans JP;
+    padding: 15px 55px;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.line {
+  color: #FFFFFF;
+  background: #4D8B5C  ;
+  border: 3px solid #4D8B5C;
+ 
+}
+.mail {
+  color: #4D8B5C;
+  background: #FFFFFF;
+  border: 3px solid #4D8B5C;
+  
+}
+
+/* flame */
+
+
+.flame110 {
+  width: 100%;
+    position: absolute;
+    bottom: 200px;
+  /* text-align: left;
+  position: relative;
+  bottom: 200px;
+  width: 52%;
+  position: relative;
+  bottom: 200px;
+  background: #FFFFFF; */
+}
+.flame110 h1,
+.flame110 h2 {
+  text-align: left;
+  /* position: relative;
+  bottom: 200px; */
+  width: 52%;
+  position: relative;
+  bottom: 200px;
+  background: #FFFFFF;
+  color: #1D527E;
+  margin: 0;
+  padding: 0;
+  
+}
+.flame110 h2 {
+  font-size: 36px;
+}
+.flame110 h1 {
+  font-size: 64px;
+  colorful span:nth-child(4) color: #daa520; 
+  colorful span:nth-child(5) color: pink;
+  colorful span:nth-child(6) color: skyblue; }
+
+header img {
+  width: 100%;
+}
+.introduction {
+
+}
+.introduction p {
+  margin: 0 auto;
+  text-align: center;
+  width: 55%;
+  font-size: 20px;
+  color: #1D527E;
+  
+}
+
+/* CTO */
+
+.cta {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.cta a {
+    display: inline-block;
+    margin: 0 auto;
+    width: 20%;
+    margin: 1%;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: Noto Sans JP;
+    padding: 15px 55px;
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.toi {
+  text-align: center;
+}
+
+/* content */
+
+.content h2 ,
+.content h3 {
+  text-align: center;
+}
+.content h2 {
+font-size: 36px;
+}
+.content h3 {
+  font-size: 24px;
+}
+
+.content p {
+  font-size: 18px;
+}
+.content h4 {
+font-size: 128px;
+}
