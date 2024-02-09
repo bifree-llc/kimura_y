@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 body {
   margin: 0;
 }
@@ -13,7 +14,6 @@ h4 {
 .inquary {
   display :flex ;
   justify-content: right;
-  
 }
 .inquary a {
     text-align: center;
@@ -69,27 +69,47 @@ h4 {
   padding: 0;
   
 }
-.flame110 h2 {
-  font-size: 36px;
-}
 .flame110 h1 {
+  margin: 0;
+  display: flex;
   font-size: 64px;
-  colorful span:nth-child(4) color: #daa520; 
-  colorful span:nth-child(5) color: pink;
-  colorful span:nth-child(6) color: skyblue; }
+}
+.flame110 h1 p {
+  margin: 0;
+  font-size: 64px;
+}
+.flame110 h2 {
+  font-size: 32px;
+}
+.flame110 h1 p:nth-child(1) {
+  color: #CD2919;
+}
+.flame110 h1 p:nth-child(2) {
+  color: #F7E241;
+}
+.flame110 h1 p:nth-child(3){
+  color: #ED832C;
+}
+.flame110 h1 p:nth-child(4){
+  color: #72B8DE;
+}
+.flame110 h1 p:nth-child(5){
+  color: #611A74;
+}
+
 
 header img {
   width: 100%;
 }
-.introduction {
 
-}
 .introduction p {
+  font-family: Noto Sans JP;
   margin: 0 auto;
   text-align: center;
   width: 55%;
   font-size: 20px;
   color: #1D527E;
+  font-weight: bold;
   
 }
 
